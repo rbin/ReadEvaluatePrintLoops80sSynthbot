@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 })
 
-// Thanks poolside.fm!
+// Thanks poolside.fm for the vids!
 function getScenes(){
   if (scenes == null){
   $.get('http://poolsideapi2.herokuapp.com/scenes?p=2', function(data){
@@ -66,7 +66,7 @@ function loadYt(sceneId){
    playerBG = new YT.Player('Scene1', {
       height: '145%',
       width: '145%',
-      playerVars: { 'autoplay': 1, 'controls': 0,'autohide':1,'wmode':'opaque', 'volume' : 0},
+      playerVars: { 'autoplay': 1, 'controls': 0,'autohide':1, 'volume' : 0},
       videoId: sceneId,
         events: {
           'onReady': onPlayerReady,
