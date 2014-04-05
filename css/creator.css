@@ -11,14 +11,7 @@ body {
   background-size: cover;
   margin: 0 !important;
   padding: 0 !important;
-}
-
-body.SynthBot {
-  height: 100%;
-  width: 100%;
-  background: none;
-  margin: 0 !important;
-  padding: 0 !important;
+  overflow: hidden;
 }
 
 h1 {
@@ -52,7 +45,7 @@ h1 {
 
 /* TESTING DIV SCROLLS */
 #Scene1 {
-  background-color: #e54196;
+  margin-left: -300px;
 }
 
 #Scene2 {
