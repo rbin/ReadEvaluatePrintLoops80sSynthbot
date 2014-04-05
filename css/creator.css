@@ -7,9 +7,18 @@
 body {
   height: 100%;
   width: 100%;
-  background: url('../img/bg.jpg') no-repeat;
+  background: url('../img/bg.gif') no-repeat;
   background-size: cover;
-  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.SynthBot {
+  height: 100%;
+  width: 100%;
+  background: none;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 h1 {
@@ -17,3 +26,38 @@ h1 {
   color: #fff;
   float: left;
 }
+
+.indexLogo {
+  margin: 200px auto;
+}
+
+#indexScene {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#goPlay {
+  height: 121px;
+  width: 151px;
+  margin-top: -200px;
+}
+
+#Controls {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 9999;
+}
+
+/* TESTING DIV SCROLLS */
+#Scene1 {
+  background-color: #e54196;
+}
+
+#Scene2 {
+  background-color: #000;  
+}
+
+
+
