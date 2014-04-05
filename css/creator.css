@@ -1,0 +1,19 @@
+/*body:after
+{
+  content: url('../img/bieb1.png');
+  display: none;
+}*/
+
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  float: left;
+}
