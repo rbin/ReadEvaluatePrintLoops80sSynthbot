@@ -18,6 +18,13 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
     <script src="./js/jquery.fullPage.min.js"></script>
     <script src="./js/jquery.easings.min.js"></script>
+    <script>
+    var tag = document.createElement('script');
+
+        tag.src = "http://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>
     <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
   </head>
   <body>
@@ -26,11 +33,9 @@
       <img src="img/controls.png" />
     </div>
       
-    <div id="Scene1" class="section">Some section</div>
-    <div id="Scene2" class="section">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-
+    <div id="bgytContainer" class="section">Something
+    </div>
+    <div id="Scene2" class="section">Something</div>
 
     <script src="./js/synthbot.js"></script>
   </body>
